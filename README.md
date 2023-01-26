@@ -38,7 +38,6 @@ $ GOOS=linux go build -o bin/main main.go
 
 AWS IAMユーザーを作成する。
 
-![スクリーンショット 2023-01-27 2.27.40.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fc2%2Ftdjhjspj49z20lszz484xd8w0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_41TkbY%2F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202023-01-27%202.27.40.png)
 
 ### クレデンシャルの設定
 
@@ -67,6 +66,3 @@ functions:
 
 Need a better logging experience than CloudWatch? Try our Dev Mode in console: run "serverless --console"
 ```
-
-### 実行
-![スクリーンショット 2023-01-27 2.34.30.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fc2%2Ftdjhjspj49z20lszz484xd8w0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_l5RwTR%2F%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202023-01-27%202.34.30.png)
