@@ -1,0 +1,25 @@
+service: lambda-test
+
+# アプリケーションがデプロイされるクラウドプロバイダを定義
+provider:
+  name: aws
+  runtime: go1.x
+  stage: master
+  region: ap-northeast-1
+  environment:
+    TZ: Asia/Tokyo
+
+"Ref": "ServerlessDeploymentBucket"
+
+# Lambda関数のエイリアスを作成するためのserverless-aws-aliasプラグインなど、アプリケーションが使用するプラグインを定義するためのオプション
+package:
+  exclude:
+    - ./**
+  include:
+    - ./bin/**
+
+# アプリケーションの個々のLambda関数を定義
+functions:
+  test_function:
+    handler: bin/main
+    name: lambda-test-test_function
